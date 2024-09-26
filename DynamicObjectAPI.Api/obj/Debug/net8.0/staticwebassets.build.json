@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q6WNgIbexnIEue7mKFnktbhSJhX4oIrBhfCzeUJyeiQ=",
+  "Source": "DynamicObjectAPI.Api",
+  "BasePath": "_content/DynamicObjectAPI.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

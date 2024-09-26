@@ -1,0 +1,12 @@
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\bin\Debug\net8.0\DynamicObjectAPI.Core.deps.json
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\bin\Debug\net8.0\DynamicObjectAPI.Core.dll
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\bin\Debug\net8.0\DynamicObjectAPI.Core.pdb
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\DynamicObjectAPI.Core.csproj.AssemblyReference.cache
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\DynamicObjectAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\DynamicObjectAPI.Core.AssemblyInfoInputs.cache
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\DynamicObjectAPI.Core.AssemblyInfo.cs
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\DynamicObjectAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\DynamicObjectAPI.Core.dll
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\refint\DynamicObjectAPI.Core.dll
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\DynamicObjectAPI.Core.pdb
+C:\Users\enver\Desktop\enverproje\DynamicObejctAPI\DynamicObjectAPI.Core\obj\Debug\net8.0\ref\DynamicObjectAPI.Core.dll

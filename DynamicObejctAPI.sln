@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectAPI.Core", "DynamicObjectAPI.Core\DynamicObjectAPI.Core.csproj", "{F42ECCC8-35BC-4571-B7E4-92E09B9AE269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectAPI.Data", "DynamicObjectAPI.Data\DynamicObjectAPI.Data.csproj", "{946F8FC7-B79D-4AA8-A37F-CFC086B1F968}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectAPI.Service", "DynamicObjectAPI.Service\DynamicObjectAPI.Service.csproj", "{6CDABFF2-7B82-4392-A82A-E820168E40A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectAPI.Api", "DynamicObjectAPI.Api\DynamicObjectAPI.Api.csproj", "{82051060-0D64-45AA-95C0-F7853B7F905F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectAPI.Tests", "DynamicObjectAPI.Tests\DynamicObjectAPI.Tests.csproj", "{ECFB9E26-BB80-435D-9686-5315BED3FB54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F42ECCC8-35BC-4571-B7E4-92E09B9AE269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42ECCC8-35BC-4571-B7E4-92E09B9AE269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42ECCC8-35BC-4571-B7E4-92E09B9AE269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42ECCC8-35BC-4571-B7E4-92E09B9AE269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946F8FC7-B79D-4AA8-A37F-CFC086B1F968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946F8FC7-B79D-4AA8-A37F-CFC086B1F968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946F8FC7-B79D-4AA8-A37F-CFC086B1F968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946F8FC7-B79D-4AA8-A37F-CFC086B1F968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDABFF2-7B82-4392-A82A-E820168E40A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDABFF2-7B82-4392-A82A-E820168E40A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDABFF2-7B82-4392-A82A-E820168E40A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDABFF2-7B82-4392-A82A-E820168E40A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82051060-0D64-45AA-95C0-F7853B7F905F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82051060-0D64-45AA-95C0-F7853B7F905F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82051060-0D64-45AA-95C0-F7853B7F905F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82051060-0D64-45AA-95C0-F7853B7F905F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F291D6D-B71D-4CE2-9B3C-9923D7A5CEFA}
+	EndGlobalSection
+EndGlobal
