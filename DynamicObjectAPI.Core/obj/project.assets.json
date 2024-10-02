@@ -252,11 +252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI.Core\\DynamicObjectAPI.Core.csproj",
+      "projectUniqueName": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI\\DynamicObjectAPI.Core\\DynamicObjectAPI.Core.csproj",
       "projectName": "DynamicObjectAPI.Core",
-      "projectPath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI.Core\\DynamicObjectAPI.Core.csproj",
+      "projectPath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI\\DynamicObjectAPI.Core\\DynamicObjectAPI.Core.csproj",
       "packagesPath": "C:\\Users\\enver\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI.Core\\obj\\",
+      "outputPath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI\\DynamicObjectAPI.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

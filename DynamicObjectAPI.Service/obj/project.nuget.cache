@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q2zocm6T/aBljHGnN3mH2b93HwkRmtIRnYWoYQcaOOVf6QVwDFMCceesjbeeZCVSp/9lGXMtFNs9UKRCdHkBPQ==",
+  "dgSpecHash": "9hzz6JdeEpEuFbG7EkDt4SeCOv3BmQlhkha1TfG36++RmrByUf+t2ha7mlM/dG0/mRhIhcna5McFzGe/2K6AcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI.Service\\DynamicObjectAPI.Service.csproj",
+  "projectFilePath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI\\DynamicObjectAPI.Service\\DynamicObjectAPI.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enver\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\enver\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

@@ -1,38 +1,54 @@
 ﻿using DynamicObjectAPI.Core.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.Linq;
+using Object = DynamicObjectAPI.Core.Models.Object;
 
-namespace DynamicObjectAPI.Data
+public class AppDbContext : DbContext
 {
-    public class AppDbContext : DbContext
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-        public DbSet<DynamicObject> DynamicObjects { get; set; }
+    }
 
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    public DbSet<Object> Objects { get; set; }
+    public DbSet<Field> Fields { get; set; }
+    public DbSet<Customer> Customer { get; set; }
+    public DbSet<Invoice> Invoice { get; set; }
+    public DbSet<InvoiceLine> InvoiceLine { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            var valueComparer = new ValueComparer<Dictionary<string, object>>(
-                (c1, c2) => c1.SequenceEqual(c2),
-                c => c.Aggregate(0, (a, v) => HashCode.Combine(a, v.GetHashCode())),
-                c => c.ToDictionary(kvp => kvp.Key, kvp => kvp.Value)
-            );
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<DynamicObject>()
-                .Property(d => d.Fields)
-                .HasConversion(
-                    v => JsonConvert.SerializeObject(v), 
-                    v => JsonConvert.DeserializeObject<Dictionary<string, object>>(v), 
-                    new ValueComparer<Dictionary<string, object>>(
-                        (d1, d2) => d1.SequenceEqual(d2),
-                        d => d.Aggregate(0, (a, v) => HashCode.Combine(a, v.GetHashCode())),
-                        d => d.ToDictionary(entry => entry.Key, entry => entry.Value)
-                    )
-                )
-                .Metadata.SetValueComparer(valueComparer);
-        }
+        
+        modelBuilder.Entity<Field>()
+            .HasOne(f => f.Object)
+            .WithMany(o => o.Fields)
+            .HasForeignKey(f => f.ObjectId);
+
+        
+        modelBuilder.Entity<Invoice>()
+            .HasOne(i => i.Customer)
+            .WithMany(c => c.Invoices)
+            .HasForeignKey(i => i.CustomerId);
+
+        
+        modelBuilder.Entity<InvoiceLine>()
+            .HasOne(il => il.Invoice)
+            .WithMany(i => i.InvoiceLines)
+            .HasForeignKey(il => il.InvoiceId);
+
+        
+        modelBuilder.Entity<Object>().HasData(
+            new Object { Id = 1, Name = "Customer" },
+            new Object { Id = 2, Name = "Invoice" },
+            new Object { Id = 3, Name = "InvoiceLine" }
+        );
+
+        
+        modelBuilder.Entity<Field>().HasData(
+            new Field { Id = 1, ObjectId = 1, FieldName = "Name", FieldType = "string" },
+            new Field { Id = 2, ObjectId = 2, FieldName = "InvoiceNumber", FieldType = "string" },
+            new Field { Id = 3, ObjectId = 3, FieldName = "ItemName", FieldType = "string" },
+            new Field { Id = 4, ObjectId = 3, FieldName = "Price", FieldType = "decimal" }
+        );
     }
 }

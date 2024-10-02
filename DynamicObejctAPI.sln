@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectAPI.Service", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicObjectAPI.Api", "DynamicObjectAPI.Api\DynamicObjectAPI.Api.csproj", "{82051060-0D64-45AA-95C0-F7853B7F905F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectAPI.Tests", "DynamicObjectAPI.Tests\DynamicObjectAPI.Tests.csproj", "{ECFB9E26-BB80-435D-9686-5315BED3FB54}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{82051060-0D64-45AA-95C0-F7853B7F905F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82051060-0D64-45AA-95C0-F7853B7F905F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82051060-0D64-45AA-95C0-F7853B7F905F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECFB9E26-BB80-435D-9686-5315BED3FB54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

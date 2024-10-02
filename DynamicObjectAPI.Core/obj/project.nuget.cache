@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5T6uB/4FNtU3L75yxZdfm8gbut717ib8BVUAPaYGidmsbPKTG1vUqpdYiwLxLcMkdWNjJ3obJCxLcJ5BrOAnEA==",
+  "dgSpecHash": "rMaU2gb7jCho1a6S/FG88GCs84zf8X7GmRLyogEG3vbElxxOSbtK/5PoXTRe0AUSL8hYrsY8UNZEng+OEi0uww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI.Core\\DynamicObjectAPI.Core.csproj",
+  "projectFilePath": "C:\\Users\\enver\\Desktop\\enverproje\\DynamicObejctAPI\\DynamicObjectAPI\\DynamicObjectAPI.Core\\DynamicObjectAPI.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enver\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\enver\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
